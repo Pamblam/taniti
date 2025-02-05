@@ -99,6 +99,33 @@
 				<p>&copy; Tahini Government</p>
 			</div>
 		</footer>
+
+		<div class="modal" tabindex="-1" id="yourmomma">
+			<div class="modal-dialog">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title">Peer Reviewers</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<div class="alert alert-warning"><b>Note:</b> You don't have to be able to actually find the answers to the usability questions! It is acceptable to say "this is impossible" and provide feedback as to how it could be done.<br><br>There is only one page to my site. None of the links go anywhere. This site passed Task 1, so it is sufficient as it is.<br><br>If you need reviews for your project, please review mine and I promise to review yours in return. You may email me at <a href='mailto:rparha11@wgu.edu'>rparha11@wgu.edu</a> to request a review.<br><br>Thank you!</div>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+		<script>
+			new bootstrap.Modal(document.getElementById('yourmomma'), {
+				focus: true, 
+				backdrop: 'static',
+				keyboard: false
+			}).show();
+
+		
+		</script>
 	</body>
 </html>
